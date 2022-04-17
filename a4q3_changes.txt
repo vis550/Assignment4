@@ -1,3 +1,9 @@
+#NAME - VIKHYAT SINGH
+#NSID - VIS550
+#STUDENT NUMBER - 11300244
+#INSTRUCTOR - PROFFESOR ERIC
+
+
 Two existing operation of statistics ADT were changed.
 
 1. init operation is changed in which 5 new data members are created i.e __max (to store the max value in the added values), __min(to store 
