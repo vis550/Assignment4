@@ -177,6 +177,8 @@ class Card(object):
             :return The average is calcuated and floating value is returned.
         """
         sum_of_all_cards=0
+        if len(list_of_cards) == 0:
+            return 0
 
         # Calculates the value of each card and calculates the sum of all the card
         for each_card in list_of_cards:
@@ -185,6 +187,7 @@ class Card(object):
 
         # To get the mean total sum is divided by the total number of cards.
         mean_of_cards=sum_of_all_cards/len(list_of_cards)
+
 
         return mean_of_cards
 
