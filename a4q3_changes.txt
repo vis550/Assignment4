@@ -1,0 +1,13 @@
+Two existing operation of statistics ADT were changed.
+
+1. init operation is changed in which 5 new data members are created i.e __max (to store the max value in the added values), __min(to store 
+the minimum value in the added values), __range (to store the range of the added values), __mode (to store the mode of the added values),
+__frequency dictionary (to store the frequency of all the added values).
+
+2. Add operation was changed in which 3 changes were done
+    a) max value is updated whenever a value greater than __max is added.
+    b) min value is updated whenever a value less than __min is added.
+    c) frequency dictionary is updated after each addition of a value.
+
+Range was calculated with the help of __max and __min variables.
+Mode was calculated with the help of frequency dictionary.
